@@ -4,7 +4,7 @@ ___
 
 _A list of my commonly used Git commands_
 
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: Bla bla bla .....*
+*If you are interested in my Git aliases, you are welcome and thanks! found here: Bla bla bla .....*
 
 --
 
