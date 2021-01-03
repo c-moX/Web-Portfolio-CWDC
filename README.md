@@ -2,7 +2,7 @@ Git Commands
 ============
 ___
 
-_A list of my commonly used Git commands_
+_A list of every one commonly used Git commands_
 
 --
 
