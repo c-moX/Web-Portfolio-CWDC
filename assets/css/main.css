@@ -8,21 +8,29 @@
 */
 
 body{
+    margin: 0;
     color: #000000;
     font-family: 'Poppins', sans-serif;
     font-weight: 700px;
     font-size: 16px;
 }
 
-/* header styles */
+/* Header Styles */
+/*---------------------*/
+h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+section{
+    height: 700px;
+}
+#banner_section{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
 .name-highlight{
     color: rgb(255, 217, 0);
 }
-/*
-#header_img{
-    background: url(/images/top-banner.png), fixed center center;
-    background-size: cover;
-}*/
 .helf_width{
     width: 40%;
     float: left;
@@ -34,17 +42,18 @@ body{
     width: 85%;
 }
 .header_para .btn_tuch{
-    width: 100px;
-    height: 30px;
-    background: rgb(253, 4, 4);
-    opacity: 70%;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    opacity: 90%;
     color: #ffffff;
     font-weight: 700;
     border: none;
     border-radius: 5%;
 }
 .header_para .btn_tuch:hover{
-    background: rgb(253, 4, 4);
+    background: tomato;
     opacity: 100%;
 }
 
