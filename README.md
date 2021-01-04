@@ -4,8 +4,11 @@ ___
 
 _A list of my commonly used Git commands_
 
+<<<<<<< HEAD
 *If you are interested in my Git aliases, you are welcome and thanks! found here: Bla bla bla .....*
 
+=======
+>>>>>>> main
 --
 
 ### Getting & Creating Projects
