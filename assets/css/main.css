@@ -16,5 +16,37 @@ body{
 
 /* header styles */
 .name-highlight{
-    color: #f3961e;
+    color: rgb(255, 217, 0);
 }
+/*
+#header_img{
+    background: url(/images/top-banner.png), fixed center center;
+    background-size: cover;
+}*/
+.helf_width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.helf_width img{
+    width: 85%;
+}
+.header_para .btn_tuch{
+    width: 100px;
+    height: 30px;
+    background: rgb(253, 4, 4);
+    opacity: 70%;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 5%;
+}
+.header_para .btn_tuch:hover{
+    background: rgb(253, 4, 4);
+    opacity: 100%;
+}
+
+
+
