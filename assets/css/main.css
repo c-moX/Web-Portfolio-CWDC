@@ -23,7 +23,7 @@ h4{font-weight: 700; font-size: 20px;}
 p{font-size: 16px; color: dimgray; line-height: 25px;}
 
 /* For Padding And Margin */
-.p-tp{padding-top: 50px;}
+.p-tp{padding-top: 35px;}
 .p-bm{padding-bottom: 50px;}
 .p-rt{padding-right: 50px;}
 .p-lt{padding-left: 50px;}
@@ -64,8 +64,7 @@ p{font-size: 16px; color: dimgray; line-height: 25px;}
 
 /* For Section */
 section{
-    height: 600px;
-    margin-bottom: 155px;
+    height: 500px;
     /*border: 1px solid red;*/
 }
 
@@ -78,9 +77,8 @@ section{
 .roc .header_img img:hover{opacity: 80%; cursor: move;}
 
 #dream_section{
-    background-image: url("/images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url("/images/design.png") fixed center center;
+	background-size: cover;
 }
 #dream_section .about_img img{width: 60%;}
 #dream_section .about_img img:hover{opacity: 80%; cursor: move;}
@@ -107,8 +105,20 @@ section{
     opacity: 100%;
 }
 
+/* Dream Section Styles */
 /*-------------------------------------------------------*/
-
+.scroll_div .scroll-btn{
+    max-width: 3%;
+    margin-left: 48%;
+    opacity: 50%;
+}
+.scroll_div b{
+    text-align: center;
+    display: block;
+    opacity: 50%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
 
 
