@@ -16,7 +16,7 @@ body{
 }
 
 h1{font-weight: 700; font-size: 50px;}
-h2{font-weight: 700; font-size: 40px; border-left: 10px solid rgb(223, 41, 9);}
+h2{font-weight: 700; font-size: 40px;}
 h3{font-weight: 700; font-size: 30px;}
 h4{font-weight: 700; font-size: 20px;}
 
@@ -32,19 +32,11 @@ p{font-size: 16px; color: dimgray; line-height: 25px;}
 .m-lt{margin-left: 50px;}
 .m-rt{margin-right: 50px;}
 
-/* For Container */
-.rounder{
-    padding-left: 5%;
-    margin-left: 5%;
-    padding-right: 5%;
-    margin-right: 5%;
-}
-
-/* For Row */
-.roc{
-    padding-left: 5%;
-    margin-left: 5%;
-}
+/* For Section, Container, Row, And Footer */
+section{height: 500px; /*border: 1px solid red;*/}
+footer{height: 400px;}
+.rounder{padding: 0 5%; margin: 0 5%;}
+.roc{padding-left: 5%; margin-left: 5%;}
 
 /* For Col-2, Col-3, And Col-4 */
 .col-2{
@@ -57,15 +49,9 @@ p{font-size: 16px; color: dimgray; line-height: 25px;}
     margin-right: 2%;
 }
 .col-4{
-    width: 40%;
+    width: 20%;
     float: left;
     margin-left: 2%;
-}
-
-/* For Section */
-section{
-    height: 500px;
-    /*border: 1px solid red;*/
 }
 
 /* All Section Background Banner/images */
@@ -75,17 +61,19 @@ section{
 }
 .roc .header_img img{width: 74%; margin-top: 100px;}
 .roc .header_img img:hover{opacity: 80%; cursor: move;}
-
+/*-----*/
 #dream_section{
-    background: url("/images/design.png") fixed center center;
+    background: url("/images/dream-bg.png") fixed center center;
 	background-size: cover;
 }
 #dream_section .about_img img{width: 60%;}
 #dream_section .about_img img:hover{opacity: 80%; cursor: move;}
-#dream_section .about_title_para{margin-left: -300px;}
+#dream_section .dream_title_para{margin-left: -300px;}
+/*-----*/
 
-/* Header Styles */
-/*---------------------*/
+
+/* Header Section Styles */
+/*-------------------------------------------------*/
 .name-highlight{
     color: rgb(255, 217, 0);
 }
@@ -111,6 +99,13 @@ section{
     max-width: 3%;
     margin-left: 48%;
     opacity: 50%;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+}
+.scroll_div .scroll-btn:hover{
+    border: 2px solid dimgray;
+    border-radius: 30px;
+    opacity: 100%;
 }
 .scroll_div b{
     text-align: center;
@@ -120,6 +115,65 @@ section{
     margin-bottom: 20px;
 }
 
+/* Experience Section Styles */
+/*-------------------------------------------------------*/
+
+
+
+/* Footer Section Styles */
+/*-------------------------------------------------------*/
+.news_later{
+    float: right;
+}
+.contact_details span{
+    color: dimgrey;
+    font-weight: 700;
+}
+.contact_details ul{list-style: none;}
+.contact_details ul a{
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: 700;
+    float: left;
+    padding: 0 10px;
+}
+.contact_details ul a:hover{
+    color: tomato;
+    font-weight: 700;
+}
+.ctn_form .name_cust{
+    color: rgb(129, 128, 128);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6.5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid tomato;
+    width: 95%;
+}
+.ctn_form .email_cust{
+    color: rgb(129, 128, 128);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 5px;
+    border: 1px solid tomato;
+    width: 60%;
+}
+
+
+
+
+/* Swipe Up Button Styles */
+.swipe_up{
+    width: 50px;
+    height: 50px;
+    float: right;
+    opacity: 50%;
+    border: 1px solid #000000;
+}
+.swipe_up:hover{
+    opacity: 90%;
+    border: 2px solid rgb(255, 217, 0);
+}
 
 
 
