@@ -34,7 +34,7 @@ p{font-size: 16px; color: dimgray; line-height: 25px;}
 
 /* For Section, Container, Row, And Footer */
 section{height: 500px; /*border: 1px solid red;*/}
-footer{height: 400px;}
+footer{height: 300px;}
 .rounder{padding: 0 5%; margin: 0 5%;}
 .roc{padding-left: 5%; margin-left: 5%;}
 
@@ -74,7 +74,7 @@ footer{height: 400px;}
 
 /* Header Section Styles */
 /*-------------------------------------------------*/
-.name-highlight{
+.texty-highlight{
     color: rgb(255, 217, 0);
 }
 .btn_tuch{
@@ -82,11 +82,11 @@ footer{height: 400px;}
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(45deg, rgb(247, 132, 86), tomato);
+    letter-spacing: 2px;
     opacity: 95%;
     color: #ffffff;
     font-weight: 700;
     border: none;
-    border-radius: 5%;
 }
 .btn_tuch:hover{
     background: tomato;
@@ -120,47 +120,66 @@ footer{height: 400px;}
 
 
 
+
 /* Footer Section Styles */
 /*-------------------------------------------------------*/
-.news_later{
-    float: right;
-}
-.contact_details span{
-    color: dimgrey;
+
+.footer_div ul li{
+    list-style: none;
+    color: rgb(133, 131, 131);
     font-weight: 700;
+    display: inline;
+    text-transform: uppercase;
 }
-.contact_details ul{list-style: none;}
-.contact_details ul a{
+.footer_div ul i{
+    font-size: 25px;
+    padding: 0 15px;
+}
+.footer_div ul a{
     text-decoration: none;
-    color: dimgrey;
-    font-weight: 700;
-    float: left;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 .contact_details ul a:hover{
     color: tomato;
     font-weight: 700;
 }
+.contact_div .contact_me{
+    color: dimgray;
+    font-weight: 700;
+    margin-left: 7%;
+}
+.contact_me i{color: tomato;}
+
+/* Mailchimp */
 .ctn_form .name_cust{
     color: rgb(129, 128, 128);
-    font-size: 16px;
-    font-weight: 700;
-    padding: 6.5px 5px;
-    margin-bottom: 10px;
+    padding: 8px 5px;
+    margin-bottom: 30px;
     border: 1px solid tomato;
-    width: 95%;
+    width: 73%;
+    opacity: 80%;
+    outline: none;
 }
+.ctn_form .name_cust:focus {
+    outline: 1px solid #e73;
+    background: #ffffff;
+  }
 .ctn_form .email_cust{
     color: rgb(129, 128, 128);
-    font-size: 16px;
-    font-weight: 700;
-    padding: 7px 5px;
+    padding: 8px 5px;
     border: 1px solid tomato;
-    width: 60%;
+    width: 50%;
+    opacity: 80%;
+    outline: none;
 }
-
-
-
+.ctn_form .email_cust:focus {
+    outline: 1px solid #e73;
+    background: #ffffff;
+  }
+.copy_right{
+    text-align: center;
+    border-top: 1px solid dimgrey;
+}
 
 /* Swipe Up Button Styles */
 .swipe_up{
@@ -168,7 +187,7 @@ footer{height: 400px;}
     height: 50px;
     float: right;
     opacity: 50%;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
 }
 .swipe_up:hover{
     opacity: 90%;
